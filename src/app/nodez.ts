@@ -1,7 +1,7 @@
 export const nodes = [
     {
       id: 1,
-      name: 'root1',
+      name: 'rootA1',
       children: [
         { id: 2, name: 'child1' },
         { id: 3, name: 'child2' }

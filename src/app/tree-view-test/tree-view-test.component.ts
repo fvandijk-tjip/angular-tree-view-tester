@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TreeModule } from 'angular-tree-component';
 
-import { nodes } from '../nodes'
+import { nodes } from '../nodez'
 
 @Component({
   selector: 'app-tree-view-test',
@@ -11,7 +11,7 @@ import { nodes } from '../nodes'
 export class TreeViewTestComponent implements OnInit {
 
   nodes = nodes;
-  
+
   constructor() { }
 
   ngOnInit() {
